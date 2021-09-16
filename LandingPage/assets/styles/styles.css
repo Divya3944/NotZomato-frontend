@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding: 0px;
+    text-decoration:none;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+a{
+color:unset;
+}
+header{
+    background-image: url('../images/hero.png');
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+i.fas fa-door-open{
+    color: white;
+    text-align: center;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding: 25px 0px;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    margin: 0px auto;
+
+   }
+nav div.container{
+    display: flex;
+    
+}
+nav .nav_item {
+    color: white;
+    margin: 0px 10px;
+}
+nav div.nav_item.app{
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+nav div.nav_item{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+header div.content{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+   margin: 0px auto;
+}
+header img.logo{
+    width: 290px;
+}
+header h1{
+color: cornsilk;
+font-family:cursive;
+font-size: 2.2rem;
+font-weight: 400;
+}
+header div.searchbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: cornsilk;
+    width: 70%;
+    border-radius: 10px;
+    height: 50px;
+}
+header div.searchbox div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+*:focus{
+   
+    outline: none;
+}
+header div.searchbox div.select i{
+    color: crimson;
+}
+header div.searchbox div.input i{
+    color: gray;
+}header div.searchbox div.seperator{
+    color: rgb(177, 175, 175);
+
+}header div.searchbox div.input{
+    flex-grow: 70;    
+}header div.searchbox div.select{
+    flex-grow: 30;
+}
+header div.searchbox div.select select{
+    width: 80%;
+    height: 32px;
+    font-size: 15px;
+    color: grey;
+    font-family:sans-serif;
+    border: unset;
+}header div.searchbox div.input input{
+    width: 80%;
+    height: 32px;
+
+    font-size: 15px;
+    font-family: sans-serif;
+    border: unset;
+}
