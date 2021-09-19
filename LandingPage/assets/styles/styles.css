@@ -59,9 +59,9 @@ header img.logo{
 }
 header h1{
 color: cornsilk;
-font-family:cursive;
+font-family: Arial;
+font-weight: unset;
 font-size: 2.2rem;
-font-weight: 400;
 }
 header div.searchbox{
     display: flex;
@@ -109,3 +109,41 @@ header div.searchbox div.select select{
     font-family: sans-serif;
     border: unset;
 }
+section.nearby{
+    min-height: 40vh;
+   
+}
+section div.container{
+    margin:0px auto;
+    width: 90%;
+    text-align: center;
+    padding: 40px 0px;
+    
+    
+   
+}
+section div.container h3{
+    font-size:2.2rem;
+    font-family: Arial;
+    font-weight: unset;
+    padding-bottom:50px;
+}
+section div.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 35%;
+    height: 70px;
+    border-radius: 7px;
+    margin-top: 5%;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor:pointer ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    font-weight: lighter;
+    
+}
+section div.box:hover{
+    
+}
+
