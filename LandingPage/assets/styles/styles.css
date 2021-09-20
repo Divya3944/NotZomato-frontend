@@ -143,7 +143,20 @@ section div.box{
     font-weight: lighter;
     
 }
-section div.box:hover{
-    
+section.app{
+    min-height: 400px;
+    background-color: rgb(249, 251, 252)
+
+}
+section.app div.content{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section.app div.content img{
+    max-width: 300px;
+    display: block;
 }
 
