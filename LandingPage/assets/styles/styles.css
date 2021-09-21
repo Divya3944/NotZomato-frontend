@@ -3,8 +3,11 @@
     padding: 0px;
     text-decoration:none;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+
+}
+body{
+    font-family: Metropolis;
 }
 
 a{
@@ -60,7 +63,7 @@ header img.logo{
 }
 header h1{
 color: cornsilk;
-font-family: Arial;
+
 font-weight: unset;
 font-size: 2.2rem;
 }
@@ -100,14 +103,14 @@ header div.searchbox div.select select{
     height: 32px;
     font-size: 15px;
     color: grey;
-    font-family:sans-serif;
+    
     border: unset;
 }header div.searchbox div.input input{
     width: 80%;
     height: 32px;
 
     font-size: 15px;
-    font-family: sans-serif;
+   
     border: unset;
 }
 section.nearby{
@@ -125,7 +128,7 @@ section.nearby div.container{
 }
 section.nearby div.container h3{
     font-size:2.2rem;
-    font-family: Arial;
+    
     font-weight: unset;
     padding-bottom:50px;
 }
@@ -195,7 +198,7 @@ section.app div.content div.form div.input{
     height: 100%;
     padding-left: 10px;
     width: 60%;
-    font-family: Okra,Helvetica,sans-serif;
+    
 }
 section.app div.content div.form div.input button{
     font-size: 1.2rem;
@@ -205,7 +208,7 @@ section.app div.content div.form div.input button{
     border-radius: 6px;
     margin: 10px;
     color: white;
-    font-family: Okra,Helvetica,sans-serif;
+    
 }
 section.app div.content div.form div.download{
     margin: 20px 0px;
@@ -255,5 +258,72 @@ section.option div.container ul li{
     font-size: 1.1rem ;
     font-weight: 100;
 }
+footer.Zomatofooter{
+    width: 100%;
+    min-height: 50vh;
+}
+footer.Zomatofooter div.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer.Zomatofooter div.logo{
+    width: 100px;
+    height: 10px;
+    font-style:unset;
+    font-size: 20px;
+    margin: 10px 70px;
+    
+}
+footer.Zomatofooter div.top div.container{
+    display: flex;
+    margin: 50px 50px;
+   }
+footer.Zomatofooter div.container div.last1 select{
+    margin-right: 25px;
+    height: 35px;
+    border-radius: 5px;
+}
+footer.Zomatofooter div.container div.last2 select{
+    margin-right: 25px;
+    height: 35px;
+    border-radius: 5px;
+    padding-right:20px  ;
+}
+footer.Zomatofooter div.bottem{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+footer.Zomatofooter div.bottem div.fifth div.icons a img{
+    width: 30px;
+    height: 30px;
+}
+footer.Zomatofooter div.bottem div.fifth div.download a img{
+    width: 125px;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+footer.Zomatofooter div.bottem div.fifth div{
+    margin-top: 10px;
+} 
+footer.Zomatofooter div.bottem div.fifth div.download{
+    margin: 20px 0px;
+}
+footer.Zomatofooter div.line{
+    margin-bottom: 40px;
+    width: 100%;
+    height:2px;
+    background-color: rgb(185, 184, 184);
+    margin-top: 40px;
+} 
+footer.Zomatofooter div.botline{
+    margin: 6px;
+    color: grey;
+}
+
 
 
