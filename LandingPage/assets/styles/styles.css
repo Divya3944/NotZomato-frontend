@@ -6,6 +6,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
 a{
 color:unset;
 }
@@ -143,6 +144,7 @@ section div.box{
     font-weight: lighter;
     
 }
+/* app section*/
 section.app{
     min-height: 400px;
     background-color: rgb(249, 251, 252)
@@ -158,5 +160,66 @@ section.app div.content{
 section.app div.content img{
     max-width: 300px;
     display: block;
+}/* app's side form*/
+section.app div.content div.form{
+    max-width: 480px;
 }
+/*h1 tag*/    
+section.app div.content div.form h1{
+    font-size: 3rem;
+}
+/*small tag*/
+section.app div.content div.form small{
+    display: block;
+    font-size: 1.1rem;
+    color:black;
+    margin: 20px;
+
+}
+/* radio button styles*/
+/*email and phone input tag styles*/
+
+section.app div.content div.form div.input{
+    
+    display: flex;
+    align-items: center;
+    height: 50px;
+    
+    
+}section.app div.content div.form div.input input{
+    flex-grow: 70;
+    background-color: cornsilk;
+    border: 1px solid rgb(94, 91, 91);
+    font-size: 1.2rem;
+    border-radius: 6px;
+    height: 100%;
+    padding-left: 10px;
+    width: 75%;
+    font-family: Okra,Helvetica,sans-serif;
+}
+section.app div.content div.form div.input button{
+    font-size: 1.2rem;
+    padding-left: 20px;
+    background-color: indianred;
+    height: 100%;
+    border-radius: 6px;
+    margin: 10px;
+    color: white;
+    font-family: Okra,Helvetica,sans-serif;
+}
+section.app div.content div.form div.download{
+    margin: 20px 0px;
+    color: gray;
+    font-weight: 100;
+    
+}
+section.app div.content div.form div.download div{
+    margin: 5px;
+}
+section.app div.content div.form div.download div img{
+    display: inline-block;
+    max-width: 150px;
+    margin: 5px 2px;
+}
+
 
