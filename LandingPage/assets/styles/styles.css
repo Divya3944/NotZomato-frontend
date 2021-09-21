@@ -114,7 +114,7 @@ section.nearby{
     min-height: 40vh;
    
 }
-section div.container{
+section.nearby div.container{
     margin:0px auto;
     width: 90%;
     text-align: center;
@@ -123,7 +123,7 @@ section div.container{
     
    
 }
-section div.container h3{
+section.nearby div.container h3{
     font-size:2.2rem;
     font-family: Arial;
     font-weight: unset;
@@ -194,12 +194,12 @@ section.app div.content div.form div.input{
     border-radius: 6px;
     height: 100%;
     padding-left: 10px;
-    width: 75%;
+    width: 60%;
     font-family: Okra,Helvetica,sans-serif;
 }
 section.app div.content div.form div.input button{
     font-size: 1.2rem;
-    padding-left: 20px;
+    padding: 10px 10px;
     background-color: indianred;
     height: 100%;
     border-radius: 6px;
@@ -220,6 +220,40 @@ section.app div.content div.form div.download div img{
     display: inline-block;
     max-width: 150px;
     margin: 5px 2px;
+}
+/*-------app section complted---*/
+/*-----------------------------*/
+/*----third section---*/ 
+section.option{
+    min-height: 60vh;
+}
+section.option div.container{
+    width: 90%;
+    margin: 30px auto;
+    
+}
+section.option div.container h1{
+    font-size: 2rem;
+}
+section.option div.container h3{
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+section.option div.container div{
+    margin-top: 40px;
+} 
+section.option div.container ul{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+section.option div.container ul li{
+    margin: 3px 10px;
+    color: gray;
+    font-size: 1.1rem ;
+    font-weight: 100;
 }
 
 
